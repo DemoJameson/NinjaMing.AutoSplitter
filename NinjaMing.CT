@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="45">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>15</ID>
+      <Description>"chapter"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
+      <Address>"GameAssembly.dll"+01C3EF88</Address>
+      <Offsets>
+        <Offset>50</Offset>
+        <Offset>B8</Offset>
+        <Offset>20</Offset>
+        <Offset>0</Offset>
+        <Offset>B8</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>18</ID>
+      <Description>"level"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"GameAssembly.dll"+01C3EF88</Address>
+      <Offsets>
+        <Offset>50</Offset>
+        <Offset>B8</Offset>
+        <Offset>20</Offset>
+        <Offset>0</Offset>
+        <Offset>B8</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>17</ID>
+      <Description>"time"</Description>
+      <VariableType>Float</VariableType>
+      <Address>"GameAssembly.dll"+01C3EF88</Address>
+      <Offsets>
+        <Offset>2C</Offset>
+        <Offset>18</Offset>
+        <Offset>60</Offset>
+        <Offset>B8</Offset>
+        <Offset>20</Offset>
+        <Offset>0</Offset>
+        <Offset>B8</Offset>
+      </Offsets>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>

@@ -1,0 +1,1 @@
+﻿A LiveSplit autosplitter for [Ninja Ming Demo](https://store.steampowered.com/app/3241750/_Demo/).
