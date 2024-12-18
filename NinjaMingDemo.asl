@@ -56,7 +56,7 @@ init
         version = "modern";
         vars.Helper.TryLoad = (Func<dynamic, bool>)(mono =>
         {
-            var njmAS = mono["NJM", "NinjaMingForAutoSplitter"];
+            var njmAS = mono["NJM.Kernel", "NinjaMingForAutoSplitter"];
             vars.Helper["gameTime"] = njmAS.Make<double>("gameTime");
             vars.Helper["state"] = njmAS.Make<int>("state");
             vars.currentLevelIDAddr = njmAS.Static + njmAS["currentLevelID"];
