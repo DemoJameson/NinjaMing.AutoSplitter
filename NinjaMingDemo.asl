@@ -32,8 +32,8 @@ startup
                 return chapter + ""-"" + majorLevel + ""-"" + subLevel;
             }
         }
-    	"
-	);
+        "
+    );
 }
 
 init
@@ -52,7 +52,7 @@ init
         });
     }
     else
-	{
+    {
         version = "modern";
         vars.Helper.TryLoad = (Func<dynamic, bool>)(mono =>
         {
@@ -62,7 +62,7 @@ init
             vars.currentLevelIDAddr = njmAS.Static + njmAS["currentLevelID"];
             return true;
         });
-	}
+    }
 
     vars.Log("version=" + version);
 }
